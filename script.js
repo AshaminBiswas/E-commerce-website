@@ -265,3 +265,161 @@ gsap.from("#sale-video video",{
         scrub:2,
     }
 })
+
+
+gsap.from("#banner .banner-box1",{
+    x:-700,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#banner .banner-box1",
+        scroller:"body",
+        // markers:true,
+        start:"top 100%",
+        end:"top 40%",
+        scrub:2,
+    }
+})
+
+gsap.from("#banner .banner-box2",{
+    x:700,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#banner .banner-box2",
+        scroller:"body",
+        // markers:true,
+        start:"top 100%",
+        end:"top 40%",
+        scrub:2,
+    }
+})
+
+gsap.from("#banner1 .banner1-box1",{
+    x:-300,
+    scale:.5,
+    scrollTrigger:{
+        trigger:"#banner1 .banner1-box1",
+        scroller:"body",
+        // markers:true,
+        start:"top 100%",
+        end:"top 60%",
+        scrub:2,
+    }
+})
+
+gsap.from("#banner1 .banner1-box2",{
+    y:300,
+    scale:.5,
+    scrollTrigger:{
+        trigger:"#banner1 .banner1-box",
+        scroller:"body",
+        // markers:true,
+        start:"top 100%",
+        end:"top 60%",
+        scrub:2,
+    }
+})
+
+
+gsap.from("#banner1 .banner1-box3",{
+    x:300,
+    scale:.5,
+    scrollTrigger:{
+        trigger:"#banner1 .banner1-box3",
+        scroller:"body",
+        // markers:true,
+        start:"top 100%",
+        end:"top 60%",
+        scrub:2,
+    }
+})
+
+// gsap.from("#signup ",{
+//     scale:0,
+//     opacity:0,
+//     scrollTrigger:{
+//         trigger:"#signup ",
+//         scroller:"body",
+//         // markers:true,
+//         start:"top 100%",
+//         end:"top 65%",
+//         scrub:2,
+//     }
+// })
+
+gsap.from("#signup .signup-text",{
+    x:-700,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#signup .signup-text",
+        scroller:"body",
+        // markers:true,
+        start:"top 100%",
+        end:"top 65%",
+        scrub:2,
+    }
+})
+
+gsap.from("#signup .signup-form",{
+    x:700,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#signup .signup-form",
+        scroller:"body",
+        // markers:true,
+        start:"top 100%",
+        end:"top 65%",
+        scrub:2,
+    }
+})
+
+gsap.from("#footer #ftc1",{
+    x:-300,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#footer #ftc1 ",
+        scroller:"body",
+        // markers:true,
+        start:"top 100%",
+        end:"top 60%",
+        scrub:2,
+    }
+})
+
+gsap.from("#footer #ftc2",{
+    x:300,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#footer #ftc2 ",
+        scroller:"body",
+        // markers:true,
+        start:"top 100%",
+        end:"top 60%",
+        scrub:2,
+    }
+})
+
+gsap.from("#footer #ftc3",{
+    y:200,
+    opacity:0,
+    scrollTrigger:{
+        trigger:"#footer #ftc3 ",
+        scroller:"body",
+        // markers:true,
+        start:"top 100%",
+        end:"top 80%",
+        scrub:2,
+    }
+})
+
+gsap.from(".copy h6",{
+    scale:0,
+    opacity:0,
+    scrollTrigger:{
+        trigger:".copy h6",
+        scroller:"body",
+        // markers:true,
+        start:"top 100%",
+        end:"top 96%",
+        scrub:2,
+    }
+})
