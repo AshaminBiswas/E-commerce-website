@@ -9,6 +9,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
+
 #nav-bar{
     width: 100%;
     height: 50px;
@@ -21,6 +26,7 @@
     position: sticky;
     top: 0;
     background-color: #E3ECF3;
+    z-index: 3;
     /* position: relative; */
 }
 
@@ -151,23 +157,34 @@
     width: 100%;
 }
 
-/* #shop h1 span{
-    color: #CF4C5C;
+#brand-animation{
+    width: 100%;
+    padding: 10px 0;
+    background-color:rgb(255, 255, 36);
+    font-size: 26px;
+    display: flex;
+    flex-shrink: 0;
+    gap: 2vw;
+    overflow: hidden;
 }
 
-#shop p{
-    text-align: center;
-    color:white
-}
-
-#shop p span{
-    color: #CF4C5C;
+.anim{
+    padding: 10px 20px;
+    display: flex;
+    gap: 2vw;
     font-weight: 600;
-} */
+    flex-shrink: 0;
+    transform: translateX(-100%);
+    z-index: 1;
+}
 
+.anim div i{
+    font-size: 30px;
+}
 
-
-/* Next pages */
+#brand-animation p{
+    font-family:"Audiowide";
+}
 
 
 
@@ -502,6 +519,11 @@
 /* rexponcive */
 
 @media(max-width:799px) {
+
+
+    body{
+        overflow-x: hidden;
+    }
     #nav-bar{
         padding:10px 30px ;
     }
@@ -527,7 +549,7 @@
     }
 
     #navbar.active{
-        right: 0px;
+        right: 610px;
     }
 
     #close{
