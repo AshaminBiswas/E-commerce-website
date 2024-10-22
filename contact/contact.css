@@ -9,6 +9,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 #nav-bar{
     width: 100%;
     display: flex;
